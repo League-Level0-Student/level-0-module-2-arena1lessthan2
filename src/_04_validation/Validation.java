@@ -14,9 +14,21 @@ public class Validation {
 		
 		int randomNumber = randomMaker.nextInt(5);
 		
-		System.out.println(randomNumber);
 
 		// 1. Use each value of randomNumber to give the user a random compliment.
+		if (randomNumber == 0) {
+			System.out.println("ye");
+		} else if (randomNumber == 1) {
+			System.out.println("neet");
+		} else if (randomNumber == 2) {
+			System.out.println("cool");
+		} else if (randomNumber == 3) {
+			System.out.println("epic");
+		} else if (randomNumber == 4) {
+			System.out.println("succ");
+		} else if (randomNumber == 5) {
+			System.out.println("nice");
+		}
 
 		// 2. Repeat all the code above 10 times
 		
